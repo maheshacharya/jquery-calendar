@@ -1,0 +1,41 @@
+{
+   "code":200,
+   "description":"Success",
+   "data":{
+      "eventInfo":[
+         {
+            "title":"Java and Web Services: Using Swagger to Define and Implement APIs",
+            "startDate":"05-19-2016",
+            "endDate":"05-19-2016",
+            "startTime":"06:00 PM",
+            "endTime":"08:00 PM",
+            "speakers":[
+               "John Doe"
+            ],
+            "link":"http://www.meetup.com/boston-java/events/230823475/"
+         },
+         {
+            "title":"Java and CMS: An Open Source Implementation and Lab",
+            "startDate":"05-10-2016",
+            "endDate":"05-10-2016",
+            "startTime":"06:00 PM",
+            "endTime":"08:00 PM",
+            "speakers":[
+               "Mahesh Acharya"
+            ],
+            "link":"http://www.meetup.com/boston-java/events/229804359/"
+         },
+         {
+            "title":"Java and Full-Stack: Development with NoSQL and Lab",
+            "startDate":"05-03-2016",
+            "endDate":"05-03-2016",
+            "startTime":"06:00 PM",
+            "endTime":"08:00 PM",
+            "speakers":[
+               "John Doe"
+            ],
+            "link":"http://www.meetup.com/boston-java/events/229851547/"
+         }
+      ]
+   }
+}

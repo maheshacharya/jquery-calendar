@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"><script src="scripts/jquery/jquery.min.js" type="text/javascript"></script><script src="scripts/macharya-calendar-min.js" type="text/javascript"></script><style>body{
+      font-family: 'Roboto', sans-serif;
+      }</style></head><body><div><div style="text-align:center"><b><h1>Events Calendar</h1></b></div><center><div class="event-calendar" style="min-width:800px;min-height:500px"></div></center></div><script>var context = "/";
+      var restendpoint = "data/events.json";
+      var props_1462805813267 = {
+         "width": 800, //width of the calendar display
+         "height":400, //height of the calendar display
+         "max_years": 12, //max. number of years shown in the year selector
+         "future_years": 4, //number of future years shown in the year selector.
+         "background_color": "rgba(255,255,255,0.96)", //background color of the calendar display.
+         "color": "#000", //font color of elements within calendar
+         "date_field_class": "event-calendar", //Class name of input field that is will invoke the calendar display.
+         "rest_endpoint":restendpoint, //Rest service endpoint.
+         "padding": "0px",
+         "dayofweek": [
+           "Sunday",
+           "Monday",
+           "Tuesday",
+           "Wednesday",
+           "Thursday",
+           "Friday",
+           "Saturday"
+         ],
+         "months": [
+           "January",
+           "February",
+           "March",
+           "April",
+           "May",
+           "June",
+           "July",
+           "August",
+           "September",
+           "October",
+           "November",
+           "December"
+         ]
+
+       };
+
+       new Calendar(props_1462805813267);</script></body></html>
